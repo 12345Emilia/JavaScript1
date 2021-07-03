@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="AClass4.css">
+    <script src="AClass4.js"></script>
+    <title>Assignment 4</title>
+</head>
+<body>
+    <div>
+    <h1>Investment Calculator</h1>
+    <form name="calculatorForm" onsubmit="return false">
+        Initial Account Balance:<input type="text" id="accountbalance" name="accountbalance" required><br />
+        Annual Interest Rate (ie. 0.075):<input type="text" id="interestrate" name="interestrate" required><br />
+        Investment Duration (in moths):<input type="text" id="investmentduration" name="investmentduration" required><br />
+    <button type="submit" value="calculate" onclick="submitData()">Calculate Final Value</button><br />
+    </form>
+    <p id="output"></p>
+</div>
+</body>
+</html>
